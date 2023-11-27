@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(255, 255, 255);
+}
+
+header {
+	background-color: #333;
+	color: #a5a3da;
+	padding: 1rem;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+nav ul li a {
+	color: #c8c7eb;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 32rem;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+h1 {
+	text-align: center;
+	display: inline-block;
+	color: #6360b3;
+	font-family: "Righteous", serif;
+	font-size: 2em;
+	text-shadow: 0.03em 0.03em 0 hsla(230, 40%, 50%, 1);
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 1rem;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	background-color: #333;
+	color: #adace7;
+	padding: 1rem;
+	text-align: center;
+}
